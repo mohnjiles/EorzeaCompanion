@@ -1,0 +1,6 @@
+framework module Pods_Eorzea_CompanionTests {
+  umbrella header "Pods-Eorzea CompanionTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

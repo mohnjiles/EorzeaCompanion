@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06F1FC98F4F6E6A7C1758263 /* Pods_Eorzea_Companion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDF80BC503A9A4B96094F66 /* Pods_Eorzea_Companion.framework */; };
+		2DD1FAC0FE9EEA2087C76315 /* Pods_Eorzea_CompanionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A82B61E80F70C191B6FC6F /* Pods_Eorzea_CompanionTests.framework */; };
 		6B81A0191F8A9C490058505C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B81A0181F8A9C490058505C /* AppDelegate.swift */; };
 		6B81A01B1F8A9C490058505C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B81A01A1F8A9C490058505C /* ViewController.swift */; };
 		6B81A01E1F8A9C490058505C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B81A01C1F8A9C490058505C /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		6B81A0231F8A9C490058505C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B81A0211F8A9C490058505C /* LaunchScreen.storyboard */; };
 		6B81A02E1F8A9C4A0058505C /* Eorzea_CompanionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B81A02D1F8A9C4A0058505C /* Eorzea_CompanionTests.swift */; };
 		6B81A0391F8A9C4A0058505C /* Eorzea_CompanionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B81A0381F8A9C4A0058505C /* Eorzea_CompanionUITests.swift */; };
+		6BB159621F8AAEF600EFA534 /* LodestoneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB159611F8AAEF600EFA534 /* LodestoneService.swift */; };
+		6BB159651F8ABB7700EFA534 /* CharacterSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB159641F8ABB7700EFA534 /* CharacterSearch.swift */; };
+		C545D61054FF2D8617C5A395 /* Pods_Eorzea_CompanionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1A8A5FC142F55A45BFA798 /* Pods_Eorzea_CompanionUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02A3CF3260074F91F6420936 /* Pods-Eorzea Companion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eorzea Companion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eorzea Companion/Pods-Eorzea Companion.debug.xcconfig"; sourceTree = "<group>"; };
+		2C86B3DBDD7D52FDFAED907B /* Pods-Eorzea CompanionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eorzea CompanionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eorzea CompanionTests/Pods-Eorzea CompanionTests.release.xcconfig"; sourceTree = "<group>"; };
+		4B1A8A5FC142F55A45BFA798 /* Pods_Eorzea_CompanionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eorzea_CompanionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B81A0151F8A9C490058505C /* Eorzea Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eorzea Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B81A0181F8A9C490058505C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B81A01A1F8A9C490058505C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		6B81A0341F8A9C4A0058505C /* Eorzea CompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eorzea CompanionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B81A0381F8A9C4A0058505C /* Eorzea_CompanionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eorzea_CompanionUITests.swift; sourceTree = "<group>"; };
 		6B81A03A1F8A9C4A0058505C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB159611F8AAEF600EFA534 /* LodestoneService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LodestoneService.swift; sourceTree = "<group>"; };
+		6BB159641F8ABB7700EFA534 /* CharacterSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSearch.swift; sourceTree = "<group>"; };
+		81A8D4E8267A33843C8A4DF5 /* Pods-Eorzea CompanionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eorzea CompanionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eorzea CompanionUITests/Pods-Eorzea CompanionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		867D36BD954B4AC7A60AFD8E /* Pods-Eorzea CompanionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eorzea CompanionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eorzea CompanionTests/Pods-Eorzea CompanionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D2A4A8EC714F0ED981D3005 /* Pods-Eorzea CompanionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eorzea CompanionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eorzea CompanionUITests/Pods-Eorzea CompanionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FB90EF229F606CF19B69085 /* Pods-Eorzea Companion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eorzea Companion.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eorzea Companion/Pods-Eorzea Companion.release.xcconfig"; sourceTree = "<group>"; };
+		D6A82B61E80F70C191B6FC6F /* Pods_Eorzea_CompanionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eorzea_CompanionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDF80BC503A9A4B96094F66 /* Pods_Eorzea_Companion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eorzea_Companion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06F1FC98F4F6E6A7C1758263 /* Pods_Eorzea_Companion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DD1FAC0FE9EEA2087C76315 /* Pods_Eorzea_CompanionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C545D61054FF2D8617C5A395 /* Pods_Eorzea_CompanionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05D75F6771610EFBF407C65A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEDF80BC503A9A4B96094F66 /* Pods_Eorzea_Companion.framework */,
+				D6A82B61E80F70C191B6FC6F /* Pods_Eorzea_CompanionTests.framework */,
+				4B1A8A5FC142F55A45BFA798 /* Pods_Eorzea_CompanionUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6B81A00C1F8A9C490058505C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				6B81A02C1F8A9C4A0058505C /* Eorzea CompanionTests */,
 				6B81A0371F8A9C4A0058505C /* Eorzea CompanionUITests */,
 				6B81A0161F8A9C490058505C /* Products */,
+				8A9E7E3E4E446E93264F9A9B /* Pods */,
+				05D75F6771610EFBF407C65A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +128,14 @@
 		6B81A0171F8A9C490058505C /* Eorzea Companion */ = {
 			isa = PBXGroup;
 			children = (
+				6BB159631F8ABB5900EFA534 /* Models */,
 				6B81A0181F8A9C490058505C /* AppDelegate.swift */,
 				6B81A01A1F8A9C490058505C /* ViewController.swift */,
 				6B81A01C1F8A9C490058505C /* Main.storyboard */,
 				6B81A01F1F8A9C490058505C /* Assets.xcassets */,
 				6B81A0211F8A9C490058505C /* LaunchScreen.storyboard */,
 				6B81A0241F8A9C490058505C /* Info.plist */,
+				6BB159611F8AAEF600EFA534 /* LodestoneService.swift */,
 			);
 			path = "Eorzea Companion";
 			sourceTree = "<group>";
@@ -125,6 +158,27 @@
 			path = "Eorzea CompanionUITests";
 			sourceTree = "<group>";
 		};
+		6BB159631F8ABB5900EFA534 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6BB159641F8ABB7700EFA534 /* CharacterSearch.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8A9E7E3E4E446E93264F9A9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02A3CF3260074F91F6420936 /* Pods-Eorzea Companion.debug.xcconfig */,
+				9FB90EF229F606CF19B69085 /* Pods-Eorzea Companion.release.xcconfig */,
+				867D36BD954B4AC7A60AFD8E /* Pods-Eorzea CompanionTests.debug.xcconfig */,
+				2C86B3DBDD7D52FDFAED907B /* Pods-Eorzea CompanionTests.release.xcconfig */,
+				9D2A4A8EC714F0ED981D3005 /* Pods-Eorzea CompanionUITests.debug.xcconfig */,
+				81A8D4E8267A33843C8A4DF5 /* Pods-Eorzea CompanionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B81A03D1F8A9C4A0058505C /* Build configuration list for PBXNativeTarget "Eorzea Companion" */;
 			buildPhases = (
+				BA23E6C420A7B9CD066B1C27 /* [CP] Check Pods Manifest.lock */,
 				6B81A0111F8A9C490058505C /* Sources */,
 				6B81A0121F8A9C490058505C /* Frameworks */,
 				6B81A0131F8A9C490058505C /* Resources */,
+				771F66A39A36312DC089C783 /* [CP] Embed Pods Frameworks */,
+				65573C10036B3871FC950DCE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B81A0401F8A9C4A0058505C /* Build configuration list for PBXNativeTarget "Eorzea CompanionTests" */;
 			buildPhases = (
+				CCE2063E863A55F42D5E2954 /* [CP] Check Pods Manifest.lock */,
 				6B81A0251F8A9C490058505C /* Sources */,
 				6B81A0261F8A9C490058505C /* Frameworks */,
 				6B81A0271F8A9C490058505C /* Resources */,
+				DFCFC30DF59AB994C35175B9 /* [CP] Embed Pods Frameworks */,
+				4754C3DC0B6FFB9EF09A2019 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B81A0431F8A9C4A0058505C /* Build configuration list for PBXNativeTarget "Eorzea CompanionUITests" */;
 			buildPhases = (
+				D5CCDFE6925EC86F09069B2F /* [CP] Check Pods Manifest.lock */,
 				6B81A0301F8A9C4A0058505C /* Sources */,
 				6B81A0311F8A9C4A0058505C /* Frameworks */,
 				6B81A0321F8A9C4A0058505C /* Resources */,
+				50AB8D97F0B830789D84A0F8 /* [CP] Embed Pods Frameworks */,
+				5DC62BFEFECF536982BD273E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +317,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4754C3DC0B6FFB9EF09A2019 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eorzea CompanionTests/Pods-Eorzea CompanionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50AB8D97F0B830789D84A0F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eorzea CompanionUITests/Pods-Eorzea CompanionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DC62BFEFECF536982BD273E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eorzea CompanionUITests/Pods-Eorzea CompanionUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65573C10036B3871FC950DCE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eorzea Companion/Pods-Eorzea Companion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		771F66A39A36312DC089C783 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Eorzea Companion/Pods-Eorzea Companion-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Siesta/Siesta.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Siesta.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eorzea Companion/Pods-Eorzea Companion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA23E6C420A7B9CD066B1C27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eorzea Companion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCE2063E863A55F42D5E2954 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eorzea CompanionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5CCDFE6925EC86F09069B2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eorzea CompanionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFCFC30DF59AB994C35175B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eorzea CompanionTests/Pods-Eorzea CompanionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6B81A0111F8A9C490058505C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +476,8 @@
 			files = (
 				6B81A01B1F8A9C490058505C /* ViewController.swift in Sources */,
 				6B81A0191F8A9C490058505C /* AppDelegate.swift in Sources */,
+				6BB159621F8AAEF600EFA534 /* LodestoneService.swift in Sources */,
+				6BB159651F8ABB7700EFA534 /* CharacterSearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +641,7 @@
 		};
 		6B81A03E1F8A9C4A0058505C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A3CF3260074F91F6420936 /* Pods-Eorzea Companion.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +657,7 @@
 		};
 		6B81A03F1F8A9C4A0058505C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FB90EF229F606CF19B69085 /* Pods-Eorzea Companion.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +673,7 @@
 		};
 		6B81A0411F8A9C4A0058505C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867D36BD954B4AC7A60AFD8E /* Pods-Eorzea CompanionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +691,7 @@
 		};
 		6B81A0421F8A9C4A0058505C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C86B3DBDD7D52FDFAED907B /* Pods-Eorzea CompanionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +709,7 @@
 		};
 		6B81A0441F8A9C4A0058505C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D2A4A8EC714F0ED981D3005 /* Pods-Eorzea CompanionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +726,7 @@
 		};
 		6B81A0451F8A9C4A0058505C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A8D4E8267A33843C8A4DF5 /* Pods-Eorzea CompanionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
