@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B81A0191F8A9C490058505C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B81A0181F8A9C490058505C /* AppDelegate.swift */; };
+		6B81A01B1F8A9C490058505C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B81A01A1F8A9C490058505C /* ViewController.swift */; };
+		6B81A01E1F8A9C490058505C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B81A01C1F8A9C490058505C /* Main.storyboard */; };
+		6B81A0201F8A9C490058505C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B81A01F1F8A9C490058505C /* Assets.xcassets */; };
+		6B81A0231F8A9C490058505C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B81A0211F8A9C490058505C /* LaunchScreen.storyboard */; };
+		6B81A02E1F8A9C4A0058505C /* Eorzea_CompanionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B81A02D1F8A9C4A0058505C /* Eorzea_CompanionTests.swift */; };
+		6B81A0391F8A9C4A0058505C /* Eorzea_CompanionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B81A0381F8A9C4A0058505C /* Eorzea_CompanionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B81A02A1F8A9C490058505C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B81A00D1F8A9C490058505C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B81A0141F8A9C490058505C;
+			remoteInfo = "Eorzea Companion";
+		};
+		6B81A0351F8A9C4A0058505C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B81A00D1F8A9C490058505C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B81A0141F8A9C490058505C;
+			remoteInfo = "Eorzea Companion";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B81A0151F8A9C490058505C /* Eorzea Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eorzea Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B81A0181F8A9C490058505C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B81A01A1F8A9C490058505C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B81A01D1F8A9C490058505C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B81A01F1F8A9C490058505C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B81A0221F8A9C490058505C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B81A0241F8A9C490058505C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B81A0291F8A9C490058505C /* Eorzea CompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eorzea CompanionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B81A02D1F8A9C4A0058505C /* Eorzea_CompanionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eorzea_CompanionTests.swift; sourceTree = "<group>"; };
+		6B81A02F1F8A9C4A0058505C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B81A0341F8A9C4A0058505C /* Eorzea CompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eorzea CompanionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B81A0381F8A9C4A0058505C /* Eorzea_CompanionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eorzea_CompanionUITests.swift; sourceTree = "<group>"; };
+		6B81A03A1F8A9C4A0058505C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B81A0121F8A9C490058505C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B81A0261F8A9C490058505C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B81A0311F8A9C4A0058505C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B81A00C1F8A9C490058505C = {
+			isa = PBXGroup;
+			children = (
+				6B81A0171F8A9C490058505C /* Eorzea Companion */,
+				6B81A02C1F8A9C4A0058505C /* Eorzea CompanionTests */,
+				6B81A0371F8A9C4A0058505C /* Eorzea CompanionUITests */,
+				6B81A0161F8A9C490058505C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B81A0161F8A9C490058505C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B81A0151F8A9C490058505C /* Eorzea Companion.app */,
+				6B81A0291F8A9C490058505C /* Eorzea CompanionTests.xctest */,
+				6B81A0341F8A9C4A0058505C /* Eorzea CompanionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B81A0171F8A9C490058505C /* Eorzea Companion */ = {
+			isa = PBXGroup;
+			children = (
+				6B81A0181F8A9C490058505C /* AppDelegate.swift */,
+				6B81A01A1F8A9C490058505C /* ViewController.swift */,
+				6B81A01C1F8A9C490058505C /* Main.storyboard */,
+				6B81A01F1F8A9C490058505C /* Assets.xcassets */,
+				6B81A0211F8A9C490058505C /* LaunchScreen.storyboard */,
+				6B81A0241F8A9C490058505C /* Info.plist */,
+			);
+			path = "Eorzea Companion";
+			sourceTree = "<group>";
+		};
+		6B81A02C1F8A9C4A0058505C /* Eorzea CompanionTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B81A02D1F8A9C4A0058505C /* Eorzea_CompanionTests.swift */,
+				6B81A02F1F8A9C4A0058505C /* Info.plist */,
+			);
+			path = "Eorzea CompanionTests";
+			sourceTree = "<group>";
+		};
+		6B81A0371F8A9C4A0058505C /* Eorzea CompanionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B81A0381F8A9C4A0058505C /* Eorzea_CompanionUITests.swift */,
+				6B81A03A1F8A9C4A0058505C /* Info.plist */,
+			);
+			path = "Eorzea CompanionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B81A0141F8A9C490058505C /* Eorzea Companion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B81A03D1F8A9C4A0058505C /* Build configuration list for PBXNativeTarget "Eorzea Companion" */;
+			buildPhases = (
+				6B81A0111F8A9C490058505C /* Sources */,
+				6B81A0121F8A9C490058505C /* Frameworks */,
+				6B81A0131F8A9C490058505C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eorzea Companion";
+			productName = "Eorzea Companion";
+			productReference = 6B81A0151F8A9C490058505C /* Eorzea Companion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B81A0281F8A9C490058505C /* Eorzea CompanionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B81A0401F8A9C4A0058505C /* Build configuration list for PBXNativeTarget "Eorzea CompanionTests" */;
+			buildPhases = (
+				6B81A0251F8A9C490058505C /* Sources */,
+				6B81A0261F8A9C490058505C /* Frameworks */,
+				6B81A0271F8A9C490058505C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B81A02B1F8A9C490058505C /* PBXTargetDependency */,
+			);
+			name = "Eorzea CompanionTests";
+			productName = "Eorzea CompanionTests";
+			productReference = 6B81A0291F8A9C490058505C /* Eorzea CompanionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B81A0331F8A9C4A0058505C /* Eorzea CompanionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B81A0431F8A9C4A0058505C /* Build configuration list for PBXNativeTarget "Eorzea CompanionUITests" */;
+			buildPhases = (
+				6B81A0301F8A9C4A0058505C /* Sources */,
+				6B81A0311F8A9C4A0058505C /* Frameworks */,
+				6B81A0321F8A9C4A0058505C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B81A0361F8A9C4A0058505C /* PBXTargetDependency */,
+			);
+			name = "Eorzea CompanionUITests";
+			productName = "Eorzea CompanionUITests";
+			productReference = 6B81A0341F8A9C4A0058505C /* Eorzea CompanionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B81A00D1F8A9C490058505C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "JT Miles";
+				TargetAttributes = {
+					6B81A0141F8A9C490058505C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					6B81A0281F8A9C490058505C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6B81A0141F8A9C490058505C;
+					};
+					6B81A0331F8A9C4A0058505C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6B81A0141F8A9C490058505C;
+					};
+				};
+			};
+			buildConfigurationList = 6B81A0101F8A9C490058505C /* Build configuration list for PBXProject "Eorzea Companion" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B81A00C1F8A9C490058505C;
+			productRefGroup = 6B81A0161F8A9C490058505C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B81A0141F8A9C490058505C /* Eorzea Companion */,
+				6B81A0281F8A9C490058505C /* Eorzea CompanionTests */,
+				6B81A0331F8A9C4A0058505C /* Eorzea CompanionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B81A0131F8A9C490058505C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B81A0231F8A9C490058505C /* LaunchScreen.storyboard in Resources */,
+				6B81A0201F8A9C490058505C /* Assets.xcassets in Resources */,
+				6B81A01E1F8A9C490058505C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B81A0271F8A9C490058505C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B81A0321F8A9C4A0058505C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B81A0111F8A9C490058505C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B81A01B1F8A9C490058505C /* ViewController.swift in Sources */,
+				6B81A0191F8A9C490058505C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B81A0251F8A9C490058505C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B81A02E1F8A9C4A0058505C /* Eorzea_CompanionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B81A0301F8A9C4A0058505C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B81A0391F8A9C4A0058505C /* Eorzea_CompanionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B81A02B1F8A9C490058505C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B81A0141F8A9C490058505C /* Eorzea Companion */;
+			targetProxy = 6B81A02A1F8A9C490058505C /* PBXContainerItemProxy */;
+		};
+		6B81A0361F8A9C4A0058505C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B81A0141F8A9C490058505C /* Eorzea Companion */;
+			targetProxy = 6B81A0351F8A9C4A0058505C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B81A01C1F8A9C490058505C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B81A01D1F8A9C490058505C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B81A0211F8A9C490058505C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B81A0221F8A9C490058505C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B81A03B1F8A9C4A0058505C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B81A03C1F8A9C4A0058505C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B81A03E1F8A9C4A0058505C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FGCKGN53RB;
+				INFOPLIST_FILE = "Eorzea Companion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.jtmiles.Eorzea-Companion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B81A03F1F8A9C4A0058505C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FGCKGN53RB;
+				INFOPLIST_FILE = "Eorzea Companion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.jtmiles.Eorzea-Companion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B81A0411F8A9C4A0058505C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FGCKGN53RB;
+				INFOPLIST_FILE = "Eorzea CompanionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.jtmiles.Eorzea-CompanionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eorzea Companion.app/Eorzea Companion";
+			};
+			name = Debug;
+		};
+		6B81A0421F8A9C4A0058505C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FGCKGN53RB;
+				INFOPLIST_FILE = "Eorzea CompanionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.jtmiles.Eorzea-CompanionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eorzea Companion.app/Eorzea Companion";
+			};
+			name = Release;
+		};
+		6B81A0441F8A9C4A0058505C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FGCKGN53RB;
+				INFOPLIST_FILE = "Eorzea CompanionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.jtmiles.Eorzea-CompanionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eorzea Companion";
+			};
+			name = Debug;
+		};
+		6B81A0451F8A9C4A0058505C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FGCKGN53RB;
+				INFOPLIST_FILE = "Eorzea CompanionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.jtmiles.Eorzea-CompanionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eorzea Companion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B81A0101F8A9C490058505C /* Build configuration list for PBXProject "Eorzea Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B81A03B1F8A9C4A0058505C /* Debug */,
+				6B81A03C1F8A9C4A0058505C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B81A03D1F8A9C4A0058505C /* Build configuration list for PBXNativeTarget "Eorzea Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B81A03E1F8A9C4A0058505C /* Debug */,
+				6B81A03F1F8A9C4A0058505C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B81A0401F8A9C4A0058505C /* Build configuration list for PBXNativeTarget "Eorzea CompanionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B81A0411F8A9C4A0058505C /* Debug */,
+				6B81A0421F8A9C4A0058505C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B81A0431F8A9C4A0058505C /* Build configuration list for PBXNativeTarget "Eorzea CompanionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B81A0441F8A9C4A0058505C /* Debug */,
+				6B81A0451F8A9C4A0058505C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B81A00D1F8A9C490058505C /* Project object */;
+}
