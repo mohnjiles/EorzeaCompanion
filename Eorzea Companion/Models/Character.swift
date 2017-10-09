@@ -1,5 +1,5 @@
 //
-//  CharacterSearch.swift
+//  Character.swift
 //  Eorzea Companion
 //
 //  Created by JT Miles on 10/8/17.
@@ -9,18 +9,19 @@
 import Foundation
 import SwiftyJSON
 
-struct CharacterSearch {
+struct Character {
     let name: String
     let id: String
     let server: String
     let icon: String
+    let characterData: CharacterData?
     
     init(json: JSON) throws {
         name = json["name"].stringValue.capitalized
         id = json["id"].stringValue
         server = json["server"].stringValue.capitalized
-        icon = json["icon"].stringValue
-        
+        icon = json["avatar"].stringValue
+        characterData = try CharacterData(json: json["data"])
     }
     
 }

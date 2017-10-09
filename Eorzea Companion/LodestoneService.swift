@@ -24,16 +24,25 @@ class LodestoneService: Service {
                 contentTypes: ["*/json"])
             
             self.configureTransformer("/search") {
-                try CharacterSearch(json: $0.content)
+                try ($0.content as JSON)["characters"]["results"].arrayValue.map(CharacterSearch.init)
+            }
+            
+            self.configureTransformer("/character/*") {
+                try Character(json: $0.content)
             }
         }
     }
     
     var search: Resource { return resource("/search") }
+    var character: Resource { return resource("/character") }
     
     func characterSearch(name: String) -> Resource {
         return search.withParam("one", "characters")
                         .withParam("string", name)
+    }
+    
+    func characterSearchById(id: String) -> Resource {
+        return character.child(id)
     }
     
 }

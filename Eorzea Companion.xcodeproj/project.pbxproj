@@ -18,6 +18,11 @@
 		6B81A0391F8A9C4A0058505C /* Eorzea_CompanionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B81A0381F8A9C4A0058505C /* Eorzea_CompanionUITests.swift */; };
 		6BB159621F8AAEF600EFA534 /* LodestoneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB159611F8AAEF600EFA534 /* LodestoneService.swift */; };
 		6BB159651F8ABB7700EFA534 /* CharacterSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB159641F8ABB7700EFA534 /* CharacterSearch.swift */; };
+		6BB159671F8ACDB800EFA534 /* CharacterSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB159661F8ACDB800EFA534 /* CharacterSearchTableViewCell.swift */; };
+		6BB1596B1F8ADBE200EFA534 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB1596A1F8ADBE200EFA534 /* Character.swift */; };
+		6BB1596D1F8ADC4000EFA534 /* CharacterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB1596C1F8ADC4000EFA534 /* CharacterData.swift */; };
+		6BB159711F8AE2A100EFA534 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB159701F8AE2A100EFA534 /* CharacterViewController.swift */; };
+		6BB159731F8B0D3300EFA534 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB159721F8B0D3300EFA534 /* NavigationController.swift */; };
 		C545D61054FF2D8617C5A395 /* Pods_Eorzea_CompanionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1A8A5FC142F55A45BFA798 /* Pods_Eorzea_CompanionUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +62,11 @@
 		6B81A03A1F8A9C4A0058505C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BB159611F8AAEF600EFA534 /* LodestoneService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LodestoneService.swift; sourceTree = "<group>"; };
 		6BB159641F8ABB7700EFA534 /* CharacterSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSearch.swift; sourceTree = "<group>"; };
+		6BB159661F8ACDB800EFA534 /* CharacterSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSearchTableViewCell.swift; sourceTree = "<group>"; };
+		6BB1596A1F8ADBE200EFA534 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		6BB1596C1F8ADC4000EFA534 /* CharacterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterData.swift; sourceTree = "<group>"; };
+		6BB159701F8AE2A100EFA534 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
+		6BB159721F8B0D3300EFA534 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		81A8D4E8267A33843C8A4DF5 /* Pods-Eorzea CompanionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eorzea CompanionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eorzea CompanionUITests/Pods-Eorzea CompanionUITests.release.xcconfig"; sourceTree = "<group>"; };
 		867D36BD954B4AC7A60AFD8E /* Pods-Eorzea CompanionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eorzea CompanionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eorzea CompanionTests/Pods-Eorzea CompanionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D2A4A8EC714F0ED981D3005 /* Pods-Eorzea CompanionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eorzea CompanionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eorzea CompanionUITests/Pods-Eorzea CompanionUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,10 +142,13 @@
 				6B81A0181F8A9C490058505C /* AppDelegate.swift */,
 				6B81A01A1F8A9C490058505C /* ViewController.swift */,
 				6B81A01C1F8A9C490058505C /* Main.storyboard */,
+				6BB159721F8B0D3300EFA534 /* NavigationController.swift */,
 				6B81A01F1F8A9C490058505C /* Assets.xcassets */,
 				6B81A0211F8A9C490058505C /* LaunchScreen.storyboard */,
 				6B81A0241F8A9C490058505C /* Info.plist */,
 				6BB159611F8AAEF600EFA534 /* LodestoneService.swift */,
+				6BB159661F8ACDB800EFA534 /* CharacterSearchTableViewCell.swift */,
+				6BB159701F8AE2A100EFA534 /* CharacterViewController.swift */,
 			);
 			path = "Eorzea Companion";
 			sourceTree = "<group>";
@@ -162,6 +175,8 @@
 			isa = PBXGroup;
 			children = (
 				6BB159641F8ABB7700EFA534 /* CharacterSearch.swift */,
+				6BB1596A1F8ADBE200EFA534 /* Character.swift */,
+				6BB1596C1F8ADC4000EFA534 /* CharacterData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -474,8 +489,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BB1596D1F8ADC4000EFA534 /* CharacterData.swift in Sources */,
 				6B81A01B1F8A9C490058505C /* ViewController.swift in Sources */,
+				6BB159671F8ACDB800EFA534 /* CharacterSearchTableViewCell.swift in Sources */,
 				6B81A0191F8A9C490058505C /* AppDelegate.swift in Sources */,
+				6BB159731F8B0D3300EFA534 /* NavigationController.swift in Sources */,
+				6BB159711F8AE2A100EFA534 /* CharacterViewController.swift in Sources */,
+				6BB1596B1F8ADBE200EFA534 /* Character.swift in Sources */,
 				6BB159621F8AAEF600EFA534 /* LodestoneService.swift in Sources */,
 				6BB159651F8ABB7700EFA534 /* CharacterSearch.swift in Sources */,
 			);
